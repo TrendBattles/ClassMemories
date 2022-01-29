@@ -1,6 +1,6 @@
 body{
     background: url(background.jpg);
-    background-size: 100vw 120vh;
+    background-size: 100vw 800px;
     background-repeat: no-repeat;
     margin: 0;
     font-family: Arial;
@@ -33,7 +33,6 @@ body{
 #des {
     font-size: 40px;
     font-weight: bold;
-    margin: 30px 50px;
 }
 .box {
     border-radius: 8px;

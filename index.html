@@ -19,7 +19,7 @@
             <p>En7 2018 - 2022</p>
             <p>Welcome to our world ❤</p>
         </div>
-        <div style = "padding-bottom: 25%" align = "center">
+        <div align = "center">
             <button type = "button" class = "btn btn-lg" style = "border: medium solid Black; margin: auto;">
                 <a href = "#des" style = "text-decoration: none; font-weight: bold; color: Black;">Find out more</a>
             </button>
@@ -49,5 +49,12 @@
                 <h4 style = "text-align:center; font-weight: bold;">English</h4>
             </div>
         </div>
+        <div id = "test"></div>
     </body>
+    <script>
+        const des_padding = document.querySelector("#des");
+        if (window.innerHeight >= 600) des_padding.style.padding = "40vh 0 0 50px";
+        else if (window.innerHeight >= 500) des_padding.style.padding = "45vh 0 0 50px";
+        else des_padding.style.padding = "50px 0 0 50px";
+    </script>
 </html>
